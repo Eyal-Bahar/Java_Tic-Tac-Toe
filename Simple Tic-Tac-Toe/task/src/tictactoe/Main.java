@@ -226,7 +226,7 @@ public class Main {
         for (int i=0; i < board.length; i++) {
             char a = board[i][0];
             if (a != symbol) {
-                break;
+                continue;
             }
             char b = board[i][1];
             char c = board[i][2];;
